@@ -41,8 +41,8 @@ section {
 
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
+  box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+  padding: 2rem;
   text-align: center;
   background-color: #f1f1f1;
 }
@@ -50,7 +50,7 @@ section {
 
 .column {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(0, 1fr);
   grid-gap: 1rem;
 }
@@ -59,6 +59,16 @@ section {
   width: 80%;
   height: auto;
   object-fit: cover;
+}
+
+.column a{
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: DeepSkyBlue;
+}
+
+.column a:hover{
+	color: DeepPink
 }
 
 .center {
@@ -86,6 +96,10 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.centxt {
+  text-align: center;
 }
 
 .centxt {
