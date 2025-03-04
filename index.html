@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="images/JAMicon.png" />
+    <title>Powers Portfolio</title>
+  </head>
+
+  <body>
+    <nav class="topnav">
+      <a href="#one" onclick="txtSwap(1)">Home</a>
+      <a href="#three" onclick="txtSwap(2)">My Works</a>
+      <a href="#four" onclick="txtSwap(3)">Contact</a>
+    </nav>
+    <hr />
+
+    <section id="one" padding="10px">
+      <img src="images/Logo.webp" class="logo" />
+      <br />
+   
+      <p>
+        Equalizer is a 3D Action Rhythm Game where the player must fight a
+        series of unique bosses, each with their own aesthetic, theme, and
+        attacks that are synced to the music in order to beat the game.
+      </p>
+    </section>
+
+    <section id="three" style="display: none">
+		<p>I mainly focus on project managment and 2D game graphics. I also enjoy web design and 3D modelling</p>
+      <div class="column">
+        <div class="card">
+          <img />
+          <p>heyo</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="four" style="display: none">
+      <p class="centxt">
+        Want to get in contact? Find your prefered method below
+      </p>
+      <form>
+        <button class="links" formaction="https://icey-dicey.itch.io/equalizer">
+          Itch
+        </button>
+        <button class="links">GameCon</button>
+        <button class="links">GitHub</button>
+      </form>
+    </section>
+
+    <script src="java.js"></script>
+  </body>
+</html>
