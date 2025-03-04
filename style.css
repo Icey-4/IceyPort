@@ -1,0 +1,93 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url(images/bg.png);
+  background-repeat: repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+
+section {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  background-color: white;
+  padding: 2rem;
+
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: DeepSkyBlue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: GhostWhite;
+  color: DeepPink;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+
+.column {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(0, 1fr);
+  grid-gap: 1rem;
+}
+
+.column img {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.links {
+  background-color: DeepSkyBlue;
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.centxt {
+  text-align: center;
+}
