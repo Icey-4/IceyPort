@@ -4,6 +4,7 @@ body {
   background-repeat: repeat;
   background-position: right top;
   background-attachment: fixed;
+  text-align: center;
 }
 
 section {
@@ -15,7 +16,8 @@ section {
 }
 
 h3 {
-	font-size: 3rem;
+	font-size: 5rem;
+	text-align: center;
 }
 
 
