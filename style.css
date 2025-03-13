@@ -61,6 +61,15 @@ h3 {
   grid-gap: 1rem;
 }
 
+@media screen and (max-width: 700px) {
+    .column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(0, 1fr);
+    grid-gap: 1rem;
+  }
+}
+
 .column img {
   width: 80%;
   height: auto;
