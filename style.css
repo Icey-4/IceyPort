@@ -1,37 +1,27 @@
 body {
   font-family: "Lato", sans-serif;
-  background-image: url(images/bg.png);
-  background-repeat: repeat;
-  background-position: right top;
-  background-attachment: fixed;
+  background-color: #ffb185;
   text-align: center;
+  
 }
 
 section {
   margin-left: 2vw;
   margin-right: 2vw;
-  background-color: white;
+  background-color: #ffb185;
   padding: 2rem;
 
 }
 
-h3 {
-	font-size: 5rem;
-	text-align: center;
-}
-
-
-/* Add a black background color to the top navigation */
 .topnav {
-  background-color: white;
+  background-color: #ffb185;
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   display: block;
-  color: DeepSkyBlue;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -39,15 +29,13 @@ h3 {
 
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
-  background-color: GhostWhite;
-  color: DeepPink;
+  background-color: #c26e3e;
+  color: bisque;
 }
 
 
 .card {
-  box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.2);
   padding: 2rem;
   text-align: center;
   background-color: #f1f1f1;
@@ -117,6 +105,11 @@ h3 {
 .centxt {
   text-align: center;
 }
+
+.centxt {
+  text-align: center;
+}
+
 
 .centxt {
   text-align: center;
