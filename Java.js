@@ -2,20 +2,20 @@ function txtSwap(x) {
 
   switch (x) {
     case 1:
-      document.getElementById("one").style.display = "block"
-      document.getElementById("three").style.display = "none"
-      document.getElementById("four").style.display = "none"
+      document.getElementById("Home").style.display = "block"
+      document.getElementById("MyWorks").style.display = "none"
+      document.getElementById("Contact").style.display = "none"
       break;
 
     case 2:
-      document.getElementById("one").style.display = "none"
-      document.getElementById("three").style.display = "block"
-      document.getElementById("four").style.display = "none"
+      document.getElementById("Home").style.display = "none"
+      document.getElementById("MyWorks").style.display = "block"
+      document.getElementById("Contact").style.display = "none"
       break;
     case 3:
-      document.getElementById("one").style.display = "none"
-      document.getElementById("three").style.display = "none"
-      document.getElementById("four").style.display = "block"
+      document.getElementById("Home").style.display = "none"
+      document.getElementById("MyWorks").style.display = "none"
+      document.getElementById("Contact").style.display = "block"
       break;
   }
   x++
