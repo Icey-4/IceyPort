@@ -39,6 +39,10 @@ section {
   color: bisque;
 }
 
+footer {
+	float: left;
+}
+
 
 .card {
   border: solid;
