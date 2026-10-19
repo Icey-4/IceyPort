@@ -40,7 +40,13 @@ section {
 }
 
 footer {
-	float: left;
+  background-color: white;
+  font-size: 1rem;
+  padding: 1rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 
