@@ -107,3 +107,24 @@ footer {
 .centxt {
   text-align: center;
 }
+
+.flex {
+  display: flex;
+  padding: 1rem;
+  font-size: 1.5rem;
+  justify-content: space-evenly;
+  
+}
+
+.flex img {
+  width: 7rem;
+  height: 100%;
+}
+
+
+.award {
+  border-radius: 1rem;
+  background-color: white;
+  color: #c26e3e;
+  padding: 1rem;
+}
